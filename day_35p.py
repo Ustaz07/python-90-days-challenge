@@ -49,3 +49,5 @@ length = len(splited_names)
 print(length) #all digits inclded first and last eg 1 to 3
 choice = random.randint(0, length-1)
 print(choice)
+print(splited_names[choice])
+print(f"{splited_names[choice]} will pay the bill.")
