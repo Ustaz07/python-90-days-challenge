@@ -1,5 +1,6 @@
 # Nested list : As the name says it is a list, but in nested form.
 
+mixed_list = [1, 3, "sman", True, 35]
 lst = [10, 34, 90, [45, 78, -3], 89]
 
 print(len(lst))
