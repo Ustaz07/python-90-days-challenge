@@ -24,14 +24,28 @@ import random
 
 
 
-# SPEED TEST EXEERCISE
-names = input("Enter names of separated by comma: ")
+# # SPEED TEST EXEERCISE
+# names = input("Enter names of separated by comma: ")
 
-text_split = names.split(",")
-length = len(text_split)
-text_split_no = random.randint(0,length)
-print(text_split_no)
+# text_split = names.split(",")
+# length = len(text_split)
+# text_split_no = random.randint(0,length)
+# print(text_split_no)
 
-# pay = random.randint(0,text_split[-1])
+# # pay = random.randint(0,text_split[-1])
 
-print(f"{text_split_no} will pay the bill")
+# print(f"{text_split_no} will pay the bill")
+
+
+
+
+# WELCOME BACK TESTING
+
+names = input("Enter names separated by comma: ")
+print(names)
+splited_names = names.split(",")
+print(splited_names)
+length = len(splited_names)
+print(length) #all digits inclded first and last eg 1 to 3
+choice = random.randint(0, length-1)
+print(choice)
