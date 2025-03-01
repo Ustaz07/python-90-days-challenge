@@ -19,21 +19,6 @@ print(f"The location is: \n {list1} \n {list2} \n {list3}")
 
 
 
-# grid = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
-
-# dimension = input("Please enter the dimension of location to hide money e.g. 33: ")
-# row = int(dimension[0]) - 1
-# column = int(dimension[1]) - 1
-
-# grid[row][column] = "X"
-
-# print("The location is:")
-# for row in grid:
-#     print(row)
-
-
-
-
 
 # # Create a 3x3 grid
 # grid = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
@@ -51,3 +36,8 @@ print(f"The location is: \n {list1} \n {list2} \n {list3}")
 # # Display the grid
 # for row in grid:
 #     print(row)
+
+
+
+#WELCOME BACK EXERCISEs
+
