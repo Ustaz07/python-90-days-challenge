@@ -22,13 +22,16 @@
 
 
 
+# import random
 
 # human_coice = int(input("Enter ---->Paper(0)---->Rock(1)---->Scissor(2)----> to guese: "))
 
 # comp_choice = random.randint(0,2)
+# print(human_coice)
 # print(comp_choice)
 
-# if (0 >= human_coice <= 2):
+# # if (0 >= human_coice <= 2):
+# if (0 <= human_coice <= 2):
 #     if (comp_choice > human_coice):
 #         print("You win")
 #     if (human_coice > comp_choice):
@@ -54,6 +57,9 @@
 # comp_choice = random.randint(0, 2)
 # print(f"Computer chose: {comp_choice}")
 
+# print(human_choice)
+# print(comp_choice)
+
 # if 0 <= human_choice <= 2:
 #     if human_choice == comp_choice:
 #         print("It's a draw!")
@@ -66,44 +72,71 @@
 
 
 
+
+
 import random
+
+
+paper = '''
+    -------
+---'   ____)
+     (______)
+     (_______)
+     (_______)
+----_(_____)
+
+'''
+
+rock = '''
+    -------
+---'   ____)
+     __________)
+     ____________)
+     ___________)
+----_________)
+
+'''
+
+scissors = '''
+    -------
+---'   ____)___
+     __________)
+     ____________)
+     (____)
+----_(___)
+
+'''
+images = [paper, rock, scissors]
 
 # (0) Paper -------> (1) Rock -----------> (2) Scissors
 
-selection = input("Select (0) for Paper, (1) for Rock, (2) for Scissors : ")
+selection = int(input("Select (0) for Paper, (1) for Rock, (2) for Scissors : "))
 
-select = int(selection)
-
-print(select)
-user_choice = select
+user_choice = selection
 comp_choice = random.randint(0,2)
 
-if (user_choice < comp_choice):
-    print("User wins")
-elif (user_choice > comp_choice):
-    print("Comp. wins")
-elif (user_choice == 0 and comp_choice == 2):
-    print("Comp. wins")
-elif (user_choice == 2 and comp_choice == 0):
-    print("User wins")
-elif (user_choice == comp_choice):
-    print("It is a draw")
+
+print("comp_choice")
+print(images[comp_choice])
+
+if (user_choice < 0 or user_choice >2):
+    print("This is a wrong input try again")
 else:
-    print("Wrong input, try again")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print("user_choice")
+    print(images[user_choice])
+    
+    if (user_choice == comp_choice):
+        print("It is a draw")
+    elif (user_choice < comp_choice):
+        print("User wins")
+    elif (user_choice > comp_choice):
+        print("Comp. wins")
+    elif (user_choice == 0 and comp_choice == 2):
+        print("Comp. wins")
+    elif (user_choice == 2 and comp_choice == 0):
+        print("User wins")
+    else:
+        print("Wrong selection")
 
 
 
