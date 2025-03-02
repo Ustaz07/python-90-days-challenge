@@ -1,57 +1,4 @@
 # import random
-# # # Rock, Scossors and paper
-# # # The rule is ---->Paper(0)---->Rock(1)---->Scissor(2)---->
-
-# # human_coice = int(input("Enter ---->Paper(0)---->Rock(1)---->Scissor(2)----> to guese: "))
-
-# # comp_choice = random.randint(0,2)
-# # print(comp_choice)
-
-# # if (comp_choice > human_coice):
-# #     print("You win")
-# # if (human_coice > comp_choice):
-# #     print("Computer win")
-# # if (comp_choice == 2 and human_coice == 0):
-# #     print("Computer win")
-# # if (human_coice == 2 and comp_choice == 0):
-# #     print("You win")
-# # if (human_coice == comp_choice):
-# #     print("It is a draw")
-# # else:
-# #     print("Yo lose because of invalid selection!!!")
-
-
-
-# import random
-
-# human_coice = int(input("Enter ---->Paper(0)---->Rock(1)---->Scissor(2)----> to guese: "))
-
-# comp_choice = random.randint(0,2)
-# print(human_coice)
-# print(comp_choice)
-
-# # if (0 >= human_coice <= 2):
-# if (0 <= human_coice <= 2):
-#     if (comp_choice > human_coice):
-#         print("You win")
-#     if (human_coice > comp_choice):
-#         print("Computer win")
-#     if (comp_choice == 2 and human_coice == 0):
-#         print("Computer win")
-#     if (human_coice == 2 and comp_choice == 0):
-#         print("You win")
-#     if (human_coice == comp_choice):
-#         print("It is a draw")
-# else:
-#     print("You lose because of invalid selection!!!")
-
-
-
-
-
-
-
-# import random
 
 # human_choice = int(input("Enter ---->Paper(0)---->Rock(1)---->Scissor(2)----> to guess: "))
 # comp_choice = random.randint(0, 2)
@@ -74,8 +21,8 @@
 
 
 
-import random
 
+import random
 
 paper = '''
     -------
@@ -124,7 +71,7 @@ if (user_choice < 0 or user_choice >2):
 else:
     print("user_choice")
     print(images[user_choice])
-    
+
     if (user_choice == comp_choice):
         print("It is a draw")
     elif (user_choice < comp_choice):
