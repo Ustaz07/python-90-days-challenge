@@ -1,4 +1,5 @@
-### Set:- Is a list
+### Set:- Is a list 
+### Methods on set like; add, remove, pop, clear
 
 set1 = {10, True, 'Jenny', 1.11}
 set2 = {1, 2, -10, 10,  0, 53}
@@ -35,8 +36,9 @@ print(set1)
 
 print(popped)
 
-set1.add((45, 39, 77))
+set1.add((45, 39, 77)) # We can add immtable item eg tuple, string, int, boolean, float
 print(set1)
+
 
 
 
