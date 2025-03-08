@@ -1,16 +1,27 @@
 #For loop : Is used for traversing a seqence. ******************
 # The seqence may be string, list, tuple etc
 
+
+#******************for loop use with list************** 
 names = ["Gmj", "Sman", "Ibm", "Qsm", "Alj"]
 for name in names:
     print(names)
 
+
+
+
 for list1 in ["Gmj", "Sman", "Ibm", "Qsm", "Alj"]:
     print(list1)
 
+
+
+
+#******************for loop use with string************** 
 list2 = "Jenny"
 for i in list2:
     print(i)
+
+
 
 list5 = ['Jenny', 'Ram', 'Shyam']
 for i in list5:
@@ -55,7 +66,6 @@ print(f"The list of squa is: {squa}")
 
 
 #******************for loop use with tuple************** 
-
 numbers = (1, 5, 7)
 
 squa = ()
@@ -64,17 +74,6 @@ for x in numbers:
     squa.append(squ)
 print(squa)
 print("The list of squa is : ", squa)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
