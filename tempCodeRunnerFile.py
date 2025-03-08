@@ -1,11 +1,9 @@
+#************using break in the loop***************************
+# tuple1 = (1, 3, 5, 7, 9)
 
-# numbers = [2, 3, 5, -2, 10]
-
-# squares = []
-# for i in numbers:
-#     square = i ** 2
-#     squares.append(square)
-
-# print(squares)
-
-
+# for i in tuple1:
+#     print(i)
+#     if i == 5:
+#         break
+# else:
+#     print("Loop Successflly executed and we are in else: block")
