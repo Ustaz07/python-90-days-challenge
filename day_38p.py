@@ -1,4 +1,4 @@
-# # Exercise
+# # Exercise:::   of location to hide money.
 
 # list1 = [1,1,1]
 # list2 = [1,1,1]

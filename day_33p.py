@@ -1,6 +1,7 @@
 import random
 
-# Random Module : Is an inbuild function in python used to generate speudo random numbers.
+# Random Module : Is an inbuild function in python used to generate speudo random
+# numbers.
 # first you write the name of the module then the function.
 
 a = random.randint(1, 7)
