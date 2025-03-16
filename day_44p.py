@@ -1,101 +1,31 @@
-# # Calculating average height from the list of height.
-# # Note that we can only used .split with int() directly to split string, not list.
-# # i.e we can not convert list to int()
-
-# # height = input("Enter the list of height separated by , to calculate the average: ")
-# # splitted = height.split(",")
-
-# # print(splitted)
-
 # # count = 0
-# # for i in splitted:
+# # x = 0,23,452
+# # for i in x:
 # #     count = count + 1
-# # print(count)
+# #     print(count)
 
-# # for i in range(0,count):
-# #     splitted[i] = int(splitted[i])
-# # print(splitted)
-
-# # total = 0
-# # for i in splitted:
-# #     total = total + i
-# # print(total)
-
-# # avg = total/count
-# # print(avg)
-# # print("Average height is: ", round(avg))
+# # x = 0
+# # for i in range(0,9):
+# #     x[i] = int(x[i])
+# #     print(x)
 
 
 
 
 
+# # # for i in range(0,1000000,3):
+# # #     # print(i)
+# # #     print(min())
+# # #     print(max())
+# # #     print(sum())
 
-
-
-
-
-
-
-
-# count = 0
-# x = 0,23,452
-# for i in x:
-#     count = count + 1
-#     print(count)
-
-# x = 0
-# for i in range(0,9):
-#     x[i] = int(x[i])
-#     print(x)
-
-
-
-
-
-# height = input("Enter the height in meter separated by comma (,): ")
-# height_splitted = height.split(",")
-# print(height_splitted)
-
-# #to traverse we used for loop
-# count = 0
-# for i in height_splitted:
-#     count = count + 1
-#     print(count)
-
-# for i in range(0,count):
-#     height_splitted[i] = int(height_splitted[i])
-#     print(height_splitted)
-
-# total = 0
-# for i in height_splitted:
-#     total = total + i
-# print(total)
-
-# avg = total/count
-# print(int(avg))
-
-
-
-
-
-
-
-
-
-
+# # list3 = []
 # # for i in range(0,1000000,3):
-# #     # print(i)
-# #     print(min())
-# #     print(max())
-# #     print(sum())
-
-# list3 = []
-# for i in range(0,1000000,3):
-#     list3.append(i)
-# print(list3)
-# print(min(list3))
-# print(max(list3))
-# print(sum(list3))    
+# #     list3.append(i)
+# # print(list3)
+# # print(min(list3))
+# # print(max(list3))
+# # print(sum(list3))    
 
 
 
@@ -103,5 +33,33 @@
 
 
 
+# Program to cal. average height from the list of heights
+# sum() and len() funct. are not allowed, only split() and range() are allowed.
+
+heights = input("Enter the list of heights separated by space: ")
+splitted_heights = heights.split()
+
+print(splitted_heights)
+print(type(splitted_heights))
+
+#to traverse we used for loop
+count = 0
+for i in splitted_heights:
+    count = count + 1
+    print(count)
+
+
+for i in range(0,count):
+    splitted_heights[i] = int(splitted_heights[i])
+print(splitted_heights)
+
+total = 0
+for i in splitted_heights:
+    total = total + i
+print(total)
+
+average = total/count
+print(int(average))
+print("Average height is: ", round(average))
 
 
