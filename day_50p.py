@@ -1,3 +1,4 @@
+# Loop: we used loop when we want to execute statements multiple times.
 # While loop: Is used when you want to execute a block of statement repeatedly, untill a given condition is true. 
 # We used while loop when we dont know the no of times the statement will be executed.
 # sentinel value.......
@@ -90,12 +91,28 @@ print("Out of loop")
 
 
 
-number = int(input("Enter a no either positive or negative to Calculate the sum (0 to quite) : "))
+# number = int(input("Enter a no either positive or negative to Calculate the sum (0 to quite) : "))
+# total = 0
+# while number != 0:
+#     total = total + number
+#     number = int(input("Enter a no either positive or negative to Calculate the sum (0 to quite) : "))
+# print(total)
+
+
+
+
+
+
+
+
+
+number = int(input("Enter a no, (0 to quit): "))
 total = 0
-while number != 0:
+while number !=0:
     total = total + number
-    number = int(input("Enter a no either positive or negative to Calculate the sum (0 to quite) : "))
-print(total)
+    print(total)
+    number = int(input("Enter a no, (0 to quit): "))
+
 
 
 
