@@ -4,7 +4,7 @@
 # Function is a block of organize reusable code that is used to perform some 
 #       specific task when it is called.
 
-#****************************REEBOG'S WORLD!*************************
+#****************************REEBOG'S WORLD! ((((((ALONE)))))))*************************
 def turn_right():
     turn_left()
     turn_left()
